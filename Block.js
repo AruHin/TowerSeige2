@@ -6,7 +6,8 @@ class Block{
             friction :0.0,
             //isStatic:true
            
-        }
+      }
+        this.image = loadImage("book2.jpg");
         this.visibility = 225;
         this.body = Bodies.rectangle(x, y, width, height, options);
         this.width = width;
