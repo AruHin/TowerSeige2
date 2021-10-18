@@ -9,8 +9,10 @@ var stand1,stand2;
 var polygon;
 var slingShot;
 var polygon_img;
+var book2;
 function preload(){
-  polygon_img=loadImage("polygon.png");
+  polygon_img = loadImage("polygon.png");
+  book2 = loadImage("book2.jpg");
 }
 function setup() {
   createCanvas(900,400);
@@ -22,7 +24,7 @@ function setup() {
   stand2 = new Stand(700,200,200,10);
  
   //level one
-  block1 = new Block(300,275,30,40);
+  block1 = new Block(300, 275, 30, 40);
   block2 = new Block(330,275,30,40);
   block3 = new Block(360,275,30,40);
   block4 = new Block(390,275,30,40);
